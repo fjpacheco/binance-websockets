@@ -1,0 +1,17 @@
+{
+  "name": "websockets_ts",
+  "version": "1.0.0",
+  "description": "simple example websockets",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Federico Pacheco",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "ws": "^8.10.0"
+  }
+}
